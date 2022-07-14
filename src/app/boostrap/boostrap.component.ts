@@ -9,6 +9,7 @@ export class BoostrapComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit(): void {
   }
 

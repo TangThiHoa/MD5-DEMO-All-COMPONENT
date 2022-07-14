@@ -8,6 +8,8 @@ import {FormsModule} from "@angular/forms";
 import { PetComponent } from './pet/pet.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { BoostrapComponent } from './boostrap/boostrap.component';
+import { ColorPickerAppComponent } from './color-picker-app/color-picker-app.component';
+import { NewCalculatorComponent } from './new-calculator/new-calculator.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { BoostrapComponent } from './boostrap/boostrap.component';
     FontSizeEditorComponent,
     PetComponent,
     CalculatorComponent,
-    BoostrapComponent
+    BoostrapComponent,
+    ColorPickerAppComponent,
+    NewCalculatorComponent
   ],
   imports: [
     BrowserModule,

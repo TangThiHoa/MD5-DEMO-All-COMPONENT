@@ -1,0 +1,19 @@
+<br>
+<label>
+  Enter in A :
+  <input type="number" [(ngModel)]="a" >
+</label>
+<br>
+<label>
+  Enter in B :
+  <input type="number" [(ngModel)]="b" >
+</label>
+<br>
+Bảng tính :
+<button (click)="summation1(a,b)">+</button>
+<button (click)="subtraction1(a,b)">-</button>
+<button (click)="multiplication1(a,b)">*</button>
+<button (click)="division1(a,b)">/</button>
+
+
+<h3>Result : {{result}}</h3>
