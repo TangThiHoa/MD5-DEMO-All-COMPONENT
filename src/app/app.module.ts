@@ -10,6 +10,11 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { BoostrapComponent } from './boostrap/boostrap.component';
 import { ColorPickerAppComponent } from './color-picker-app/color-picker-app.component';
 import { NewCalculatorComponent } from './new-calculator/new-calculator.component';
+import { ArticleComponent } from './article/article.component';
+import { LikeComponent } from './like/like.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { NameCardComponent } from './name-card/name-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { NewCalculatorComponent } from './new-calculator/new-calculator.componen
     CalculatorComponent,
     BoostrapComponent,
     ColorPickerAppComponent,
-    NewCalculatorComponent
+    NewCalculatorComponent,
+    ArticleComponent,
+    LikeComponent,
+    NavbarComponent,
+    FooterComponent,
+    NameCardComponent
   ],
   imports: [
     BrowserModule,
