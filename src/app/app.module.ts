@@ -15,6 +15,8 @@ import { LikeComponent } from './like/like.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NameCardComponent } from './name-card/name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { RatingBarComponent } from './rating-bar/rating-bar.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { NameCardComponent } from './name-card/name-card.component';
     LikeComponent,
     NavbarComponent,
     FooterComponent,
-    NameCardComponent
+    NameCardComponent,
+    ProgressBarComponent,
+    RatingBarComponent
   ],
   imports: [
     BrowserModule,
