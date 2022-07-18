@@ -26,6 +26,7 @@ import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
 import { CountdownTimerAppComponent } from './countdown-timer-app/countdown-timer-app.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { CountdownTimerAppComponent } from './countdown-timer-app/countdown-time
     LoginComponent,
     AdminComponent,
     HomeComponent,
-    CountdownTimerAppComponent
+    CountdownTimerAppComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,
