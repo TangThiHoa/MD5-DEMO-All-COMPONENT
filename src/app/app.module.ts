@@ -18,7 +18,13 @@ import { NameCardComponent } from './name-card/name-card.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { RatingBarComponent } from './rating-bar/rating-bar.component';
 import { TodoComponent } from './todo/todo.component';
-import { FormRegisterComponent } from './form-register/form-register.component';
+import { OneWayBinddingComponent } from './one-way-bindding/one-way-bindding.component';
+import { TwoWayBinddingComponent } from './two-way-bindding/two-way-bindding.component';
+import { CustomerComponent } from './customer/customer.component';
+import { NgforComponent } from './ngfor/ngfor.component';
+import { LoginComponent } from './login/login.component';
+import { AdminComponent } from './admin/admin.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +43,13 @@ import { FormRegisterComponent } from './form-register/form-register.component';
     ProgressBarComponent,
     RatingBarComponent,
     TodoComponent,
-    FormRegisterComponent
+    OneWayBinddingComponent,
+    TwoWayBinddingComponent,
+    CustomerComponent,
+    NgforComponent,
+    LoginComponent,
+    AdminComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
